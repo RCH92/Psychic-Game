@@ -18,7 +18,7 @@ function reset() {
 
 }
 function game() {
-    
+
     attemptsLeft = 7;
     random = bank[(Math.floor(Math.random() * bank.length))];
     document.getElementById("guessesLeft").innerHTML = "Guesses left: " + attemptsLeft;
@@ -54,7 +54,7 @@ function game() {
                         console.log(attemptsLeft);
                         losses++;
                         document.getElementById("losses").innerHTML = "Losses: " + losses;
-                        alert("you lose");
+                        confirm("you lose");
                         reset();
                     }
                 }

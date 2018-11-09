@@ -1,0 +1,25 @@
+/* <html style="background: url('assets/images/Crystal.jpg'); background-repeat: no-repeat; background-size: auto;"> */
+.background {
+    z-index: 99;
+}
+.mainContainer {
+    margin: auto;
+    background-image: url('../images/Crystal.jpg');
+    background-repeat: no-repeat; 
+    background-position: center;
+    width: 80%;
+    background-size: 100%;
+    text-align: center;
+    padding: auto;
+
+    z-index: 1;
+}
+.title {
+    color: whitesmoke; 
+    margin: 30px 40% auto 40%; 
+    text-align: center;
+}
+.gameText {
+text-align: center;
+ margin: 18% 40% auto 40%;
+}
