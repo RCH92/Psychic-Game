@@ -23,3 +23,48 @@
 text-align: center;
  margin: 18% 40% auto 40%;
 }
+.textStat {
+    padding: 7px;
+}
+.game{
+    font-size: 18px;
+}
+
+@media screen 
+  /* and (min-device-width: 1200px)  */
+  and (max-device-width: 1300px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+      .mainContainer {
+          width: 100%;
+        }
+      .textStat {
+        padding: 5px;
+        }
+      
+      .game {
+          font-size: 16px;
+         }
+}
+@media only screen 
+  /* and (min-device-width: 768px)  */
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+   
+    .game {
+        font-size: 14px;
+    }
+    .textStat {
+        padding: 3px;
+    }
+    .gameText {
+        text-align: center;
+         margin: 30% 40% auto 40%;
+        }
+        .title {
+            color: whitesmoke; 
+            margin: 30px 30% auto 30%; 
+            text-align: center;
+        }
+
+}
+
